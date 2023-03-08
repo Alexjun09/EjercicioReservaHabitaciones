@@ -7,4 +7,4 @@
 
 2- Diagrama de clases
 
-![image](https://user-images.githubusercontent.com/49788885/223706716-cf903b75-49c5-4bd8-9c1e-74f4d134887c.png)
+![image](https://user-images.githubusercontent.com/49788885/223721710-2e3bee63-5403-4e14-95d5-a76fa0f36af4.png)
