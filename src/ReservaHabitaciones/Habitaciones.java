@@ -2,6 +2,9 @@ package ReservaHabitaciones;
 
 /**
  * clase abstracta habitaciones que será heredada por la clase Suit y la clase Dobles
+ *
+ * @author Alejandro Junyent Romani
+ * @version 1
  */
 public abstract class Habitaciones {
     //atributos de la clase
@@ -15,7 +18,7 @@ public abstract class Habitaciones {
     }
 
     /**
-     * Constructor del objeto habstracto habitacion
+     * Constructor del objeto habstracto habitacion que será heredado por Suit y Dobles
      *
      * @param habitacion el numero de la habitacion
      * @param est        el estado de la habitracion
@@ -28,7 +31,7 @@ public abstract class Habitaciones {
     }
 
     /**
-     * metodo setter para el estado
+     * metodo setter para cambiar el estado de la habitacion
      *
      * @param estado el estado de la habitacion
      */
@@ -55,9 +58,9 @@ public abstract class Habitaciones {
     }
 
     /**
-     * metodo que devuelve el numero de camas
+     * metodo que devuelve el numero de camas que tiene una habitacion
      *
-     * @return numero de camas
+     * @return numero de camas que tiene la habitacion
      */
     public int getNumeroCamas() {
         return numeroCamas;

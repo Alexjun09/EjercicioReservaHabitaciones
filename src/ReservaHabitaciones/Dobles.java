@@ -1,7 +1,10 @@
 package ReservaHabitaciones;
 
 /**
- * Clase Dobles que hereda de Habitaciones
+ * Clase Dobles que hereda de Habitaciones. Esta clase almacena toda la informacion necesaria para la reserva de habitaciones de tipo Doble
+ *
+ * @author Alejandro Junyent
+ * @version 1
  */
 public class Dobles extends Habitaciones {
     //atributos del objeto dobles
@@ -26,7 +29,7 @@ public class Dobles extends Habitaciones {
     }
 
     /**
-     * setter para mininbar
+     * metodo setter para poner si tiene minibar o no
      *
      * @param minibar si tiene minibar o no
      */
@@ -35,7 +38,7 @@ public class Dobles extends Habitaciones {
     }
 
     /**
-     * Metodo para saber si tiene minibar o no
+     * Metodo getter para saber si tiene minibar o no
      *
      * @return true si tiene minibar, false si no
      */
@@ -44,9 +47,9 @@ public class Dobles extends Habitaciones {
     }
 
     /**
-     * calcula los descuentos aplicados a la habitacion
+     * metodo calcular descuentos calcula los descuentos aplicados a la habitacion
      *
-     * @return el descuento
+     * @return el descuento aplicable
      */
     public int calculoDescuentos() {
         int calculo = 0;

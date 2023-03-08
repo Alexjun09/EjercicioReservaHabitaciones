@@ -1,7 +1,10 @@
 package ReservaHabitaciones;
 
 /**
- * Clase suit que heredará de su clase padre habitaciones
+ * Clase Suit que hereda de Habitaciones. Esta clase almacena toda la informacion necesaria para la reserva de habitaciones de tipo Suit
+ *
+ * @author Alejandro Junyent
+ * @version 1
  */
 public class Suit extends Habitaciones {
     //atributos especificos de la clase
@@ -29,7 +32,7 @@ public class Suit extends Habitaciones {
     }
 
     /**
-     * setter de los metros de la suit
+     * metodo setter de los metros de la suit
      *
      * @param metros los metros que tiene
      */
@@ -38,16 +41,16 @@ public class Suit extends Habitaciones {
     }
 
     /**
-     * setter de los servicios que tiene esa suit
+     * metodo setter de los servicios que tiene esa suit
      *
-     * @param servicios los servicios que tiene
+     * @param servicios los servicios que tiene la suit
      */
     public void setServicios(String servicios) {
         this.servicios = servicios;
     }
 
     /**
-     * metodo que devuelve los metros de la suit
+     * metodo que devuelve los metros cuadrados de la suit
      *
      * @return los metros
      */
@@ -67,7 +70,7 @@ public class Suit extends Habitaciones {
     /**
      * metodo que calcula los gastos de la suit
      *
-     * @return los gastos
+     * @return los gastos de la suit
      */
     public int calculoGastos() {
         int calculogastos = 0;
